@@ -20,8 +20,123 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-// API站点配置
+// API站点配置（完整影视点播资源站点）
 const API_SITES = {
+    // 1. 电影天堂资源
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂资源',
+        detail: 'http://caiji.dyttzyapi.com'
+    },
+    // 2. 如意资源
+    ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
+        name: '如意资源'
+    },
+    // 3. 暴风资源
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源'
+    },
+    // 4. 天涯资源
+    tyyszy: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯资源'
+    },
+    // 5. 小猫咪资源
+    xiaomaomi: {
+        api: 'https://zy.xmm.hk/api.php/provide/vod',
+        name: '小猫咪资源'
+    },
+    // 6. 非凡影视
+    ffzy: {
+        api: 'http://ffzy5.tv/api.php/provide/vod',
+        name: '非凡影视',
+        detail: 'http://ffzy5.tv'
+    },
+    // 7. 黑木耳
+    heimuer: {
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳',
+        detail: 'https://heimuer.tv'
+    },
+    // 8. 360资源
+    zy360: {
+        api: 'https://360zy.com/api.php/provide/vod',
+        name: '360资源'
+    },
+    // 9. iqiyi资源
+    iqiyi: {
+        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+        name: 'iqiyi资源'
+    },
+    // 10. 卧龙资源
+    wolong: {
+        api: 'https://wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源'
+    },
+    // 11. 华为吧资源
+    hwba: {
+        api: 'https://cjhwba.com/api.php/provide/vod',
+        name: '华为吧资源'
+    },
+    // 12. 极速资源
+    jisu: {
+        api: 'https://jszyapi.com/api.php/provide/vod',
+        name: '极速资源',
+        detail: 'https://jszyapi.com'
+    },
+    // 13. 豆瓣资源
+    dbzy: {
+        api: 'https://dbzy.tv/api.php/provide/vod',
+        name: '豆瓣资源'
+    },
+    // 14. 魔爪资源
+    mozhua: {
+        api: 'https://mozhuazy.com/api.php/provide/vod',
+        name: '魔爪资源'
+    },
+    // 15. 魔都资源
+    mdzy: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
+        name: '魔都资源'
+    },
+    // 16. 最大资源
+    zuid: {
+        api: 'https://api.zuidapi.com/api.php/provide/vod',
+        name: '最大资源'
+    },
+    // 17. 樱花资源
+    yinghua: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花资源'
+    },
+    // 18. 百度云资源
+    baidu: {
+        api: 'https://api.apibdzy.com/api.php/provide/vod',
+        name: '百度云资源'
+    },
+    // 19. 无尽资源
+    wujin: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
+        name: '无尽资源'
+    },
+    // 20. 旺旺短剧
+    wwzy: {
+        api: 'https://wwzy.tv/api.php/provide/vod',
+        name: '旺旺短剧'
+    },
+    // 21. iKun资源
+    ikun: {
+        api: 'https://ikunzyapi.com/api.php/provide/vod',
+        name: 'iKun资源'
+    },
+    // 22. 量子资源站
+    lzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子资源站'
+    },
+    // 23. 空内容测试源（标记为成人内容）
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
